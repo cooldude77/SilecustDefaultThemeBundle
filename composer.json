@@ -1,0 +1,21 @@
+{
+    "name": "silecust/default-theme-bundle",
+    "type": "silecust-theme",
+    "autoload": {
+        "psr-4": {
+            "Silecust\\DefaultThemeBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashvini",
+            "email": "2662881+cooldude77@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.3",
+        "symfony/framework-bundle": "7.1.*",
+        "twig/twig": "^3.0"
+    }
+}
